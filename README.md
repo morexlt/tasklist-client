@@ -7,7 +7,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is the Frontend of the Tasklist Chalenge
+This project is the Frontend of the Tasklist Challenge
 	
 ## Technologies
 Project is created with:
@@ -22,7 +22,7 @@ To only run this project, we need docker and docker-compose installed
 First clone the project
 ```bash
 git clone https://github.com/morexlt/tasklist-client
-cd ../tasklist-client
+cd tasklist-client
 ```
 Then you can only run the client:
 ```bash
@@ -43,7 +43,7 @@ cd ../tasklist-client
 ```
 Then install dependencies
 ```bash
-nvm use
+nvm install
 cp .env.example .env
 npm install
 npm start

@@ -10,7 +10,7 @@ RUN npm install
 
 RUN [ -f .env ] && echo "ENV exist." || echo "ENV does not exist." && cp .env.example .env
 
-RUN npm build
+RUN npm run build
 
 ENV PORT 3000
 
