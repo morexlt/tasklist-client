@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const taskApi = axios.create({ baseURL: process.env.SERVER_URL });
+const taskApi = axios.create({ baseURL: process.env.REACT_APP_SERVER_URL });
 
 const getTasks = (amountOfTasks) => {
   return taskApi.get('/tasks', {
