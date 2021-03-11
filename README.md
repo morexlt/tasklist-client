@@ -44,6 +44,7 @@ cd ../tasklist-client
 Then install dependencies
 ```bash
 nvm use
+cp .env.example .env
 npm install
 npm start
 ```
