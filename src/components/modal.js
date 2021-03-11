@@ -21,7 +21,7 @@ export const useModal = () => {
     if (!isVisible) return null;
     return (
       <div className="flex items-center justify-center fixed left-0 bottom-0 w-full h-full bg-gray-800 bg-opacity-10 z-40">
-        <div className="bg-white rounded-lg w-3/4 max-w-xl" >
+        <div className="bg-white rounded-lg w-3/4 max-w-xl">
           <div className="flex flex-col items-start p-4">
             <div className="flex items-center w-full">
               <div className="text-gray-900 font-medium text-md">{title}</div>
