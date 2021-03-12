@@ -21,13 +21,13 @@ const QuantitySelector = ({ setQuantity, defaultValue }) => {
 
   return (
     <div className="flex justify-center m-5">
-      <div className="relative w-30">
+      <div className="relative w-64">
         <input
           onChange={handleSetValue}
           pattern="^[0-9]{0,2}$"
           value={value}
           type="text"
-          className=" border h-14 pl-5 rounded-lg z-0 focus:shadow focus:outline-none"
+          className="w-full border h-14 pl-5 rounded-lg z-0 focus:shadow focus:outline-none"
           placeholder="Number of Tasks"
         />
         <div className="absolute top-2 right-2">
