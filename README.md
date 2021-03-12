@@ -39,7 +39,7 @@ To run this project, localy without using docker we need npm
 First clone the project
 ```bash
 git clone https://github.com/morexlt/tasklist-client
-cd ../tasklist-client
+cd tasklist-client
 ```
 Then install dependencies
 ```bash
