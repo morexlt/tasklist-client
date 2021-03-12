@@ -9,8 +9,6 @@ function App() {
   const [amountOfTasks, setAmountOfTasks] = useState(DEFAULT);
 
   const handleSetAmountOfTasks = (amount) => {
-    console.log('handleSetAmountOfTasks');
-    console.log(amount);
     setAmountOfTasks(amount);
   };
 
